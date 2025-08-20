@@ -19,28 +19,6 @@ El propósito del análisis es:
 
 ---
 
-## 🗂️ Estructura del proyecto
-
-```
-alura-store-analysis/
-│
-├─ data/
-│  ├─ raw/                 # CSV de las tiendas
-│  └─ processed/           # Datos limpios generados por el notebook
-│
-├─ notebooks/
-│  └─ Desafio_N°_1_Max_Gutierrez_Flores.ipynb   # Notebook principal
-│
-├─ README.md
-└─ requirements.txt
-```
-
-
-**Notas:** coloca los archivos originales en `data/raw/`. Si el notebook genera `data/processed/`, úsalo en reproducciones futuras.
-
-
----
-
 ## 📈 Ejemplos de gráficos e insights obtenidos
 
 - Ingresos totales por tienda (bar chart) — identifica tiendas con mayor y menor aporte a los ingresos.
@@ -67,8 +45,6 @@ Cada gráfica en el notebook incluye una interpretación y, cuando aplica, un in
 
 ```bash
 python -m venv venv
-# mac/linux
-source venv/bin/activate
 # windows (PowerShell)
 venv\Scripts\Activate.ps1
 ```
